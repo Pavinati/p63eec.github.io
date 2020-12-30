@@ -1,0 +1,22 @@
+body {
+  margin: 2rem;
+  text-align: center;
+}
+
+header {
+  background-color: #bf2886;
+  color: white;
+}
+.imglogo {
+  width: 9.4rem;
+  min-width: 9.4rem;
+  min-height: 9.4rem;
+}
+
+h3 {
+  color: #bf2886;
+}
+footer {
+  color: white;
+  background-color: #003366;
+}
