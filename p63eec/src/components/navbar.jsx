@@ -44,7 +44,7 @@ function Navba() {
           </LinkContainer>
           { /* Dropdown Sindrome EEC*/}
           <NavDropdown title="Sindrome EEC" id="collasible-nav-dropdown">
-          <LinkContainer to="#">
+          <LinkContainer to="/what">
             <NavDropdown.Item>Cos'è</NavDropdown.Item>
           </LinkContainer>
           <LinkContainer to="#">
