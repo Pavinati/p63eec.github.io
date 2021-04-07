@@ -24,6 +24,9 @@ code {
   color: white;
   background-color: #bf2886;
 }
+.pageBody{
+  margin: 3em;
+}
 
 .footer {
   margin-bottom: 2em;
@@ -38,7 +41,6 @@ code {
   max-height: 4em;
   align-items: center;
 }
-
 
 .headerImg {
   width: 100%;
@@ -97,3 +99,5 @@ h3 {
   width: 100%;
   height: auto;
 }
+
+.imgFloatLeft { float: left; padding: 15px 15px 15px 0; };

@@ -2,17 +2,25 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Header from "./components/header";
-import Navba from "./components/navbar";
 import Footer from "./components/footer";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Homepage from "./page/homepage";
+import Giulia from "./page/giulia";
+import Navba from "./components/navbar";
+
 
 function App() {
   return (
     <>
       <Container className="App">
         <Header />
-        <Navba />
-        <Homepage />
+        <Router>
+          <Navba />
+          <Switch>
+            <Route exact path="/" component={Homepage} />
+            <Route path="/giulia" component={Giulia} />
+          </Switch>
+        </Router>
         <Footer />
       </Container>
     </>
