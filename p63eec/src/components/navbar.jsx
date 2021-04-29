@@ -31,10 +31,10 @@ function Navba() {
           </LinkContainer>
           {/*Dropdown Chi siamo*/}
           <NavDropdown title="Chi siamo" id="collasible-nav-dropdown">
-          <LinkContainer to="#">
+          <LinkContainer to="/about-us/us">
             <NavDropdown.Item>Noi</NavDropdown.Item>
           </LinkContainer>
-          <LinkContainer to="#">
+          <LinkContainer to="/about-us/contacts">
             <NavDropdown.Item>Servizi</NavDropdown.Item>
           </LinkContainer>
           </NavDropdown>
