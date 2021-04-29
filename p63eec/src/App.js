@@ -6,6 +6,7 @@ import Footer from "./components/footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Homepage from "./page/homepage";
 import Giulia from "./page/giulia";
+import History from "./page/history";
 import Navba from "./components/navbar";
 
 
@@ -19,6 +20,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Homepage} />
             <Route path="/giulia" component={Giulia} />
+            <Route path="/what" component={History}/>
           </Switch>
         </Router>
         <Footer />
