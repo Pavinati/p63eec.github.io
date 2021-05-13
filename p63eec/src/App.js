@@ -8,7 +8,8 @@ import Homepage from "./page/homepage";
 import Giulia from "./page/giulia";
 import History from "./page/history";
 import Navba from "./components/navbar";
-
+import Us from "./page/us";
+import Contacts from "./page/contacts";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
           <Switch>
             <Route exact path="/" component={Homepage} />
             <Route path="/giulia" component={Giulia} />
+            <Route path="/about-us/us" component={Us} />
+            <Route path="/about-us/contacts" component={Contacts} />
             <Route path="/what" component={History}/>
           </Switch>
         </Router>
