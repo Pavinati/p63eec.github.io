@@ -60,16 +60,16 @@ function Navba() {
           </NavDropdown>
           {/*Eventi*/}
           <NavDropdown title="Eventi" id="collasible-nav-dropdown">
-            <LinkContainer to="#">
+            <LinkContainer to="/events/gallery">
               <NavDropdown.Item>Galleria</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="#">
+            <LinkContainer to="/events/agenda">
               <NavDropdown.Item>Agenda</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="#">
+            <LinkContainer to="/events/press">
               <NavDropdown.Item>Stampa</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="#">
+            <LinkContainer to="/events/tv">
               <NavDropdown.Item>TV</NavDropdown.Item>
             </LinkContainer>
           </NavDropdown>
