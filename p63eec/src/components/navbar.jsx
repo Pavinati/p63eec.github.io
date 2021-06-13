@@ -74,11 +74,11 @@ function Navba() {
             </LinkContainer>
           </NavDropdown>
           {/*Partners*/}
-          <LinkContainer to="#">
+          <LinkContainer to="/partners">
             <Nav.Link>Partners</Nav.Link>
           </LinkContainer>
           {/*Sostienici*/}
-          <LinkContainer to="#">
+          <LinkContainer to="support-us">
             <Nav.Link>Sostienici</Nav.Link>
           </LinkContainer>
         </Nav>

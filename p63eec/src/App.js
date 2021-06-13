@@ -15,6 +15,8 @@ import Gallery from "./page/events/gallery.jsx"
 import Agenda from "./page/events/agenda.jsx"
 import Press from "./page/events/press.jsx"
 import Tv from "./page/events/tv.jsx"
+import Partners from "./page/partners.jsx"
+import SupportUs from "./page/supportUs.jsx"
 
 function App() {
   return (
@@ -33,6 +35,8 @@ function App() {
             <Route path="/events/agenda" component={Agenda}/>
             <Route path="/events/press" component={Press}/>
             <Route path="/events/tv" component={Tv}/>
+            <Route path="/partners" component={Partners}/>
+            <Route path="/support-us" component={SupportUs}/>
           </Switch>
         </Router>
         <Footer />

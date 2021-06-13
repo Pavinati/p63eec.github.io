@@ -251,7 +251,7 @@ function Homepage() {
           <Col>
             <img
               className="diconoDiNoiImg"
-              src={process.env.PUBLIC_URL + "assets/r4l.png"}
+              src={process.env.PUBLIC_URL + "assets/partners/r4l.png"}
               alt="r4l"
             />
           </Col>
