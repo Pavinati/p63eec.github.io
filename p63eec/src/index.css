@@ -42,20 +42,6 @@ code {
   align-items: center;
 }
 
-.headerImg {
-  width: 100%;
-  height: auto;
-}
-
-.txtImg {
-  width: 100%;
-  height: auto;
-}
-
-.homeImg {
-  width: 100%;
-  height: auto;
-}
 h3 {
   color: #bf2886;
 }
@@ -89,15 +75,6 @@ h3 {
 .row {
   margin: 1em;
 
-}
-
-.diconoDiNoiImg {
-  width: 100%;
-  height: auto;
-}
-.carouselImg {
-  width: 100%;
-  height: auto;
 }
 
 
