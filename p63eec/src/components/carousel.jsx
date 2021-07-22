@@ -13,42 +13,42 @@ function ControlledCarousel() {
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
-            className="carouselImg"
+            className="w-100"
             src={process.env.PUBLIC_URL + "/assets/carousel/1.jpeg"}
             alt="First slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="carouselImg"
+            className="w-100"
             src={process.env.PUBLIC_URL + "/assets/carousel/2.jpeg"}
             alt="Second slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="carouselImg"
+            className="w-100"
             src={process.env.PUBLIC_URL + "/assets/carousel/3.jpeg"}
             alt="Third slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="carouselImg"
+            className="w-100"
             src={process.env.PUBLIC_URL + "/assets/carousel/4.jpeg"}
             alt="Forth slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="carouselImg"
+            className="w-100"
             src={process.env.PUBLIC_URL + "/assets/carousel/5.jpeg"}
             alt="Fifth slide"
           />
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="carouselImg"
+            className="w-100"
             src={process.env.PUBLIC_URL + "/assets/carousel/6.jpeg"}
             alt="Sixth slide"
           />
@@ -56,7 +56,7 @@ function ControlledCarousel() {
 
         <Carousel.Item>
           <img
-            className="carouselImg"
+            className="w-100"
             src={process.env.PUBLIC_URL + "/assets/carousel/7.jpeg"}
             alt="Eighth slide"
           />

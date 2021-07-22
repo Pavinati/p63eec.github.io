@@ -8,10 +8,10 @@ function Header() {
     <Container  >
       <Row className="header">
         <Col md={3} >
-        <img className="headerImg" src={`${process.env.PUBLIC_URL}/assets/Logo.png`} />
+        <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/Logo.png`} />
         </Col>
         <Col md={9}>
-        <img className="headerImg" src={`${process.env.PUBLIC_URL}/assets/P63_title.png`} />
+        <img className="w-100" src={`${process.env.PUBLIC_URL}/assets/P63_title.png`} />
         </Col>
       </Row>
     </Container>

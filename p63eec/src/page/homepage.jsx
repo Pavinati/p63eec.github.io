@@ -131,7 +131,7 @@ function sectionRow(data) {
         <Row className="row">
           <Col md={6}>
             <img
-              className="homeImg"
+              className="w-100"
               src={process.env.PUBLIC_URL + immagine.url}
               alt={immagine.nome}
             />
@@ -150,7 +150,7 @@ function sectionRow(data) {
           </Col>
           <Col md={6}>
             <img
-              className="homeImg"
+              className="w-100"
               src={process.env.PUBLIC_URL + immagine.url}
               alt={immagine.nome}
             />
@@ -243,21 +243,21 @@ function Homepage() {
         <Row>
           <Col>
             <img
-              className="diconoDiNoiImg"
+              className="w-100"
               src={process.env.PUBLIC_URL + "assets/wild.jpeg"}
               alt="wild"
             />
           </Col>
           <Col>
             <img
-              className="diconoDiNoiImg"
+              className="w-100"
               src={process.env.PUBLIC_URL + "assets/partners/r4l.png"}
               alt="r4l"
             />
           </Col>
           <Col>
             <img
-              className="diconoDiNoiImg"
+              className="w-100"
               src={process.env.PUBLIC_URL + "assets/rareducando2.jpeg"}
               alt="rareducando2.jpeg"
             />

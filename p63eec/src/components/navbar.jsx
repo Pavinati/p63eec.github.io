@@ -27,7 +27,7 @@ function Navba() {
           </LinkContainer>
           {/*Paypal*/}
           <LinkContainer to="#">
-            <Nav.Link className="paypal" style={{color:"white"}}>Paypal</Nav.Link>
+            <Nav.Link className="paypal">Paypal</Nav.Link>
           </LinkContainer>
           {/*Dropdown Chi siamo*/}
           <NavDropdown title="Chi siamo" id="collasible-nav-dropdown">
